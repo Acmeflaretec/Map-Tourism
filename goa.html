@@ -51,7 +51,8 @@
                         <a class="text-primary px-3" href="#" onclick="redirectToWhatsApp()">
                             <i class="fab fa-whatsapp"></i>
                         </a>
-                        <a class="text-primary px-3" href="https://www.instagram.com/map.tourism?igsh=MWI3bTZ3OHB1ZXQ5OQ%3D%3D">
+                        <a class="text-primary px-3"
+                            href="https://www.instagram.com/map.tourism?igsh=MWI3bTZ3OHB1ZXQ5OQ%3D%3D">
                             <i class="fab fa-instagram"></i>
                         </a>
                         <!-- <a class="text-primary pl-3" href="">
@@ -80,8 +81,8 @@
                     <div class="navbar-nav ml-auto py-0">
                         <a href="index.html" class="nav-item nav-link ">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link active">Services</a>
-                        <a href="package.html" class="nav-item nav-link">Tour Packages</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="package.html" class="nav-item nav-link active">Tour Packages</a>
                         <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu border-0 rounded-0 m-0">
@@ -100,16 +101,15 @@
     </div>
     <!-- Navbar End -->
 
-
     <!-- Header Start -->
     <div class="container-fluid page-header">
         <div class="container">
             <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-                <h3 class="display-4 text-white text-uppercase">Services</h3>
+                <h3 class="display-4 text-white text-uppercase">Packages</h3>
                 <div class="d-inline-flex text-white">
                     <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Services</p>
+                    <p class="m-0 text-uppercase">Packages</p>
                 </div>
             </div>
         </div>
@@ -117,8 +117,8 @@
     <!-- Header End -->
 
 
-  <!-- Booking Start -->
-  <div class="container-fluid booking mt-5 pb-5">
+   <!-- Booking Start -->
+   <div class="container-fluid booking mt-5 pb-5">
     <div class="container pb-5">
         <div class="bg-light shadow" style="padding: 30px;">
             <form name="package-form" method="post">
@@ -188,127 +188,204 @@
 <!-- Booking End -->
 
 
-    <!-- Destination Start -->
+    <!-- Packages Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destination</h6>
-                <h1>Explore Top Destination</h1>
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Packages</h6>
+                <h1>Pefect Tour Packages</h1>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/destination-6.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Goa</h5>
-                            <!-- <p>3n4d packages</p>
-                            <span>₹5999</span> -->
+                <div class="col-lg-12 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <div id="carouselExampleIndicators" class="carousel slide package-carousel mb-2"
+                            data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/New folder/goa1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/New folder/goa2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/New folder/goa3.jpg" alt="Third slide">
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/kerala.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Kerala</h5>
-                            <!-- <p>3n4d packages</p>
-                            <span>₹6999</span> -->
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/manali.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Manali</h5>
-                            <!-- <p>4n5d packages</p>
-                            <span>₹6999</span> -->
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/delhi.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white text-center">Delhi</h5>
-                            <!-- <span>5999</span> -->
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/ladakh.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Ladhak</h5>
-                            <!-- <span>100 Cities</span> -->
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/rajasthan.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Rajasthan</h5>
-                            <!-- <span>100 Cities</span> -->
-                        </a>
+                    <div class="p-4">
+                        <div class="d-flex justify-content-between mb-3">
+                            <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Goa</small>
+                            <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                            <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>1 Person</small>
+                        </div>
+
+                        <div class="mt-4">
+                            <h3 onclick="redirectToWhatsApp()">GOA</h3>
+                            <h6>DAY 1: ARRIVE AT GOA (NORTH GOA SIGHTSEEING)
+                            </h6>
+                            <ul>
+                                <li> Reach Goa Airport/railway station and start your 3 days trip to Goa by meeting
+                                    your chauffeur who will
+                                    drive you to your hotel.</li>
+                                <li> Travel comfortably in a private vehicle and reach your hotel and complete your
+                                    check-in formalities.</li>
+                                <li> get ready for a tour to North Goa, known for its sunny beaches.
+                                    Guest Name
+                                    Departure Date
+                                    No. of Days
+                                    No. of Pax : 5
+                                    Hotel Category
+                                    Meal Plan</li>
+                                <li> Start the First day of your Goa 2-night 3 days package with an exploration of
+                                    the
+                                    famous Fort Aguada,
+                                    known for its breath-taking view of the Arabian Sea.</li>
+                                <li> Visit Calangute Beach, the largest beach in North Goa, also the most popular
+                                    tourist spot in Goa.</li>
+                                <li> Explore another captivating beach, Baga Beach, which is a popular beach known
+                                    for
+                                    its vibrant
+                                    nightlife.
+                                <li> Head out tow</li>ards Anjuna, a famous and popular beach famous for full-moon
+                                parties.</li>
+                                <li> Return back to your hotel at the end of the day with lots of memories of North
+                                    Goa.</li>
+                            </ul>
+                            <h6>DAY 2: GRAND ISLAND TOUR
+                            </h6>
+                            <ul>
+                                <li> Get picked up from Arpora, Baga, Calangute, or Candolim locations in Goa in a
+                                    comfortable
+                                    vehicle to begin the adventurous water sports tour.</li>
+                                <li> Start the tour from Coco Jetty in a long tail boat at 08:30 AM to the Grand
+                                    Island
+                                    and witness
+                                    amazing views to soothe your senses.</li>
+                                <li> Enjoy 40 minutes of a boat ride in the vicinity of Grand Island till 10:30 AM.
+                                    You
+                                    might be
+                                    able to spot dolphins during the journey.</li>
+                                <li> Curb your hunger pangs at 10:30 AM with mouthwatering meals such as light
+                                    snacks
+                                    and
+                                    lunch.</li>
+                                <li> Get refreshing and chilled soft drinks as complementary.</li>
+                                <li> Relish the astonishing underwater views for about 5 to 7 minutes depending upon
+                                    the factors
+                                    like weather and the pressure of the water.</li>
+                                <li> Grab the most thrilling water sports experience at 4:00 PM that includes Banana
+                                    ride, Speed
+                                    Boat ride, Bumper ride, parasailing ,scuba diving and Jet ski. (Included in
+                                    certain
+                                    packages).</li>
+                                <li> Activities will be performed with proper safety measures and with the help of a
+                                    professional
+                                    instructor.</li>
+                                <li> Get yourself dropped at the drop-off locations same as mentioned above at
+                                    5:30-6:00 PM</li>
+
+                            </ul>
+                            <h6>DAY 3: SOUTH GOA SIGHTSEEING TOUR</h6>
+                            <ul>
+                                <li> On the Last day of your trip</li>
+                                <li> checkout from hotel get ready for a full-day sightseeing tour of South Goa.
+                                </li>
+                                <li> Visit Miramar Beach and walk barefoot on the golden sand.</li>
+                                <li> Explore the various beautiful old Goa churches, known for their spellbinding
+                                    architecture.</li>
+                                <li> Go to Dona Paula Bay and know the fascinating tale about the place.</li>
+                                <li> Shop at Panjim flea market</li>
+                                <li> Departure to madgaon railway station /airport</li>
+
+                            </ul>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="inclusions">
+                                    <h3>INCLUSIONS</h3>
+                                    <ul>
+                                        <li> All transfers & tour on pvt basis unless stated above</li>
+                                        <li> Pick up drop from railway station / airport</li>
+                                        <li> 24-hour assistance</li>
+                                        <li> 2 Breakfast 2 dinner</li>
+                                        <li> Water activities</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="inclusions">
+                                    <h3>EXCLUSIONS</h3>
+                                    <ul>
+                                        <li> Travel Insurance</li>
+                                        <li> Any meals other than those mentioned in the inclusion</li>
+                                        <li> Any services not specifically mentioned in the inclusion</li>
+                                        <li> Expenses of personal nature</li>
+                                        <li> Optional Service</li>
+                                        <li> Entry tickets</li>
+                                        <li> Any other service not specified in the inclusion</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
-    <!-- Destination Start -->
-
-
-    <!-- Service Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Services</h6>
-                <h1>Tours & Travel Services</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                        <i class="fa fa-2x fa-route mx-auto mb-4"></i>
-                        <h5 class="mb-2">Travel Guide</h5>
-                        <p class="m-0">Insights for memorable journeys and unforgettable experiences.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                        <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"></i>
-                        <h5 class="mb-2">Ticket Booking</h5>
-                        <p class="m-0">Seamless reservations for hassle-free travel arrangements worldwide.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                        <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
-                        <h5 class="mb-2">Packages</h5>
-                        <p class="m-0">Tailored itineraries offering the best value for your travel adventures.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-    <!-- Service End -->
+    <!-- Packages End -->
 
 
 
-     <!-- Footer Start -->
-     <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-4 col-md-6 mb-5">
                 <a href="" class="navbar-brand">
                     <h1 class="text-primary"><span class="text-white">Map.</span>Tourism</h1>
                 </a>
-                <p>Explore the world with Map.Tourism. Discover unforgettable experiences. Contact us for personalized travel itineraries and expert guidance.</p>
+                <p>Explore the world with Map.Tourism. Discover unforgettable experiences. Contact us for personalized
+                    travel itineraries and expert guidance.</p>
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
                 <div class="d-flex justify-content-start">
                     <!-- <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a> -->
                     <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-primary btn-square mr-2" href="#" onclick="redirectToWhatsApp()"><i class="fab fa-whatsapp"></i></a>
-                    <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/map.tourism?igsh=MWI3bTZ3OHB1ZXQ5OQ%3D%3D"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#" onclick="redirectToWhatsApp()"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-outline-primary btn-square"
+                        href="https://www.instagram.com/map.tourism?igsh=MWI3bTZ3OHB1ZXQ5OQ%3D%3D"><i
+                            class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
@@ -323,7 +400,7 @@
                     <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a> -->
                 </div>
             </div>
-           
+
             <div class="col-lg-4 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>Kerala</p>

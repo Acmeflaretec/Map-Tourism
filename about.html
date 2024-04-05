@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <p><i class="fa fa-envelope mr-2"></i>maptourism.co@gmail.com</p>
+                        <p><i class="fa fa-envelope mr-2"></i>Info@maptourism.in</p>
                         <p class="text-body px-3">|</p>
                         <p><i class="fa fa-phone-alt mr-2" onclick="redirectToWhatsApp()"></i>+91-7907302538</p>
                     </div>
@@ -117,24 +117,26 @@
     <!-- Header End -->
 
 
-    <!-- Booking Start -->
-    <div class="container-fluid booking mt-5 pb-5">
-        <div class="container pb-5">
-            <div class="bg-light shadow" style="padding: 30px;">
+   <!-- Booking Start -->
+   <div class="container-fluid booking mt-5 pb-5">
+    <div class="container pb-5">
+        <div class="bg-light shadow" style="padding: 30px;">
+            <form name="package-form" method="post">
                 <div class="row align-items-center" style="min-height: 60px;">
+
                     <div class="col-md-10">
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
+                                    <select class="custom-select px-4" name="destination" style="height: 47px;">
                                         <option selected>Destination</option>
-                                        <option value="1">Kerala</option>
-                                        <option value="2">Goa</option>
-                                        <option value="3">Delhi</option>
-                                        <option value="4">Manali</option>
-                                        <option value="5">Ladakh</option>
-                                        <option value="6">Kashmir</option>
-                                        <option value="7">Rajasthan</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Delhi">Delhi</option>
+                                        <option value="Manali">Manali</option>
+                                        <option value="Ladakh">Ladakh</option>
+                                        <option value="Kashmir">Kashmir</option>
+                                        <option value="Rajasthan">Rajasthan</option>
                                     </select>
                                 </div>
                             </div>
@@ -143,44 +145,47 @@
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text" class="form-control p-4 datetimepicker-input"
                                             placeholder="Depart Date" data-target="#date1"
-                                            data-toggle="datetimepicker" />
+                                            data-toggle="datetimepicker" name="departDate" required />
                                     </div>
                                 </div>
                             </div>
+                            
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <select class="custom-select px-4" name="duration" style="height: 47px;">
+                                        <option selected>Duration</option>
+                                        <option value="1 nights-2 day">1 nights-2 day</option>
+                                        <option value="2 nights-3 day">2 nights-3 day</option>
+                                        <option value="3 nights-4 day">3 nights-4 day</option>
+                                        <option value="4 nights-5 day">4 nights-5 day</option>
+                                        <option value="5 nights-6 day">5 nights-6 day</option>
+                                        <option value="6 nights-7 day">6 nights-7 day</option>
+                                        <option value="7 nights-8 day">7 nights-8 day</option>
+                                    </select>
+                                </div>
+                            </div>
+
                             <div class="col-md-3">
                                 <div class="mb-3 mb-md-0">
                                     <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control p-4 datetimepicker-input"
-                                            placeholder="Return Date" data-target="#date2"
-                                            data-toggle="datetimepicker" />
+                                        <input type="text" class="form-control p-4"
+                                            placeholder="Contact No" 
+                                             name="Contact" required />
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Duration</option>
-                                        <option value="1">1 nights-2 day</option>
-                                        <option value="2">2 nights-3 day</option>
-                                        <option value="3">3 nights-4 day</option>
-                                        <option value="3">4 nights-5 day</option>
-                                        <option value="3">5 nights-6 day</option>
-                                        <option value="3">6 nights-7 day</option>
-                                        <option value="3">7 nights-8 day</option>
-                                    </select>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <button class="btn btn-primary btn-block" type="submit"
-                            style="height: 47px; margin-top: -2px;" href="#" onclick="redirectToWhatsApp()">Submit</button>
+                            style="height: 47px; margin-top: -2px;">Submit</button>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
-    <!-- Booking End -->
+</div>
+<!-- Booking End -->
 
 
     <!-- About Start -->
@@ -295,7 +300,7 @@
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>Kerala</p>
                 <p><i class="fa fa-phone-alt mr-2" onclick="redirectToWhatsApp()"></i>+91-7907302538</p>
-                <p><i class="fa fa-envelope mr-2"></i>maptourism.co@gmail.com</p>
+                <p><i class="fa fa-envelope mr-2"></i>Info@maptourism.in</p>
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
                 <div class="w-100">
                     <div class="input-group">
@@ -352,6 +357,29 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        const scriptURL1 = 'https://script.google.com/macros/s/AKfycbziSXCDG0_NcX9wD9mJkaxQBfR_APadvMPIY4mTOGKSUbq1nhIisQUzse669jWSd4N7JA/exec';
+    
+        const form1 = document.forms['package-form'];
+        const submitButton1 = document.querySelector('button[type="submit"]');
+    
+        form1.addEventListener('submit', e => {
+            e.preventDefault();
+            submitButton1.disabled = true;
+            fetch(scriptURL1, { method: 'POST', body: new FormData(form1) })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.result === 'success') {
+                        alert("Thank you! Your form is submitted successfully.");
+                        window.location.reload();
+                    } else {
+                        alert("Oops! Something went wrong.");
+                    }
+                })
+                .catch(error => console.error('Error!', error.message))
+                .finally(() => submitButton1.disabled = false);
+        });
+    </script>
 </body>
 
 </html>
